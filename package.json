@@ -1,10 +1,10 @@
 {
   "name": "web-crypto-api",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "Cryptosystem",
+  "author": "Thanabodee-Pond",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "Thanabodee-Pond",
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
@@ -84,5 +84,8 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "prisma": {
+    "seed": "ts-node -P tsconfig.seed.json prisma/seed.ts"
   }
 }
