@@ -21,6 +21,11 @@ This project is a backend API for a Peer-to-Peer (C2C) cryptocurrency exchange p
 -   **Authentication:** **Passport.js** (with `passport-jwt` strategy) - The industry standard for handling token-based authentication in the Node.js ecosystem.
 -   **Validation:** **`class-validator`** & **`Joi`** - Used for declarative, decorator-based validation of incoming request data (DTOs) and environment variables, ensuring data integrity from the entry point.
 
+
+## 🚀 Live Demo
+
+**[➡️ View the live application here (if available)](https://youtu.be/5ks-ajdYsJo)**
+
 ## 🚀 Getting Started
 
 Follow these instructions to get the project up and running on your local machine.
